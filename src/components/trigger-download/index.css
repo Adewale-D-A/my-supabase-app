@@ -1,0 +1,9 @@
+.aad-btn-download-trigger{
+    padding: 5px 10px 5px 10px;
+    border: gray solid 1px;
+}
+.aad-btn-download-trigger:hover{
+    cursor: pointer;
+    border:  rgb(115, 132, 96) solid 1px;
+    transition: all;
+}

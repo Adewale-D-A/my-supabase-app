@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ExportToCSV from "../../components/export-to-csv";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
         <div className=" flex items-center gap-5">
           <Link to={"/login"}>LOGIN</Link>
           <Link to={"/sign-up"}>SIGNUP</Link>
+        </div>
+        <div>
+          <ExportToCSV />
         </div>
       </div>
     </div>
