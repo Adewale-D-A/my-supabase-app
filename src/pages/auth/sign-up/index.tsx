@@ -22,6 +22,17 @@ export default function SignUp() {
               first_name: firstName,
               last_name: lastname,
               username: username,
+              phone_number: "0705694",
+              usertype: "vendor",
+
+              business_name: "AAD",
+              business_address: "Ilupeju",
+              zones_and_prices: JSON.stringify([
+                {
+                  zone: "Zone 1",
+                  price: 1000,
+                },
+              ]),
             },
           },
         });
