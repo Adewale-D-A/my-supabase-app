@@ -10,8 +10,9 @@ export default function Home() {
           <Link to={"/login"}>LOGIN</Link>
           <Link to={"/sign-up"}>SIGNUP</Link>
         </div>
-        <div>
+        <div className=" flex items-center gap-5">
           <ExportToCSV />
+          <Link to={"/status-update"}>UPDATE STATUS</Link>
         </div>
       </div>
     </div>
