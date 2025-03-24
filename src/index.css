@@ -15,3 +15,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media print {
+  .no-print {
+      display: none !important;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* Custom page size and layout */
+  @page {
+      size: A4; /* You can use 'letter' for US format */
+      margin: 20mm; /* Adjust margins */
+  }
+
+  /* Ensure content fits well */
+  #pdf-content {
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+  }     
+    /* Page breaks for multi-page content */
+  .page-break {
+      page-break-before: always;
+  }
+}

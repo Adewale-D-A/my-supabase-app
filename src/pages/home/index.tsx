@@ -13,6 +13,8 @@ export default function Home() {
         <div className=" flex items-center gap-5">
           <ExportToCSV />
           <Link to={"/status-update"}>UPDATE STATUS</Link>
+          <Link to={"/export-to-print"}>EXPORT TO PRINT</Link>
+          <Link to={"/export-to-pdf"}>EXPORT TO PRINT</Link>
         </div>
       </div>
     </div>

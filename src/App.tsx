@@ -4,6 +4,8 @@ import Login from "./pages/auth/login";
 import SignUp from "./pages/auth/sign-up";
 import Home from "./pages/home";
 import StatusUpdater from "./pages/update-status";
+import ExportToPrint from "./pages/export-to-print";
+import ExportToPdf from "./pages/export-to-pdf";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/status-update" element={<StatusUpdater />} />
+      <Route path="/export-to-print" element={<ExportToPrint />} />
+      <Route path="/export-to-pdf" element={<ExportToPdf />} />
     </Routes>
   );
 }
